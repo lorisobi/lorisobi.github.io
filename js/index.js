@@ -5,6 +5,9 @@ function search(ele, content) {
         var paragraph = document.getElementById("consoleLog");
         paragraph.innerHTML += content + "<br />";
         window.location.href = "#bottom";  
+        document.getElementById("consoleInput").innerHTML = "";
+        document.getElementById("consoleInput").focus();
+
     }
 }
 

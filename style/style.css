@@ -19,10 +19,11 @@ body{
 }
 
 body > div{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     color: rgb(0, 255, 0);
     background: black;
     overflow: scroll;
+    padding: 10px;
 
 }
 
