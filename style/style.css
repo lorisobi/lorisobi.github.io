@@ -19,7 +19,7 @@ body{
 }
 
 body > div{
-    height: calc(100vh - 30px);
+    height: calc(100vh - 50px);
     color: rgb(0, 255, 0);
     background: black;
 
@@ -30,6 +30,7 @@ body > input{
     color: rgb(0, 255, 0);
     background: black;
     border: none !important;
+    padding: 10px;
 
 }
 
