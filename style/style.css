@@ -31,11 +31,12 @@ body > input{
     background: black;
     border: none !important;
     padding: 10px;
+    caret-shape:block;
+    caret-color: rgb(0, 255, 0);
 
 }
 
-body > input:active,body > input:focus{
+body > input:active, body > input:focus{
     border: none !important;
-    caret-shape:block;
-    caret-color: rgb(0, 255, 0);
+    outline: none !important;
 }
