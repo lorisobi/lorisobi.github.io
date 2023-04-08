@@ -1,11 +1,11 @@
 document.getElementById("consoleInput").focus();
 
-function search(ele) {
+function search(ele, content) {
     if(event.key === 'Enter') {
         alert(ele.value);  
         var paragraph = document.getElementById("consoleLog");
 
-        paragraph.textContent += "<br>" + ele;      
+        paragraph.textContent += "<br>" + content;      
     }
 }
 
