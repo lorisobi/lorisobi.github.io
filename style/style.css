@@ -22,11 +22,11 @@ body > div{
     height: calc(100vh - 50px);
     color: rgb(0, 255, 0);
     background: black;
+    overflow: scroll;
 
 }
 
 body > div > p{
-    overflow: scroll;
 }
 
 body > input{
