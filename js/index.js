@@ -5,7 +5,7 @@ function search(ele, content) {
         alert(ele.value);  
         var paragraph = document.getElementById("consoleLog");
 
-        paragraph.textContent += "<br />" + content;      
+        paragraph.innerHTML += "<br />" + content;      
     }
 }
 
