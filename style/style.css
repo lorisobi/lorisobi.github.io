@@ -12,7 +12,7 @@ body{
 }
 
 body > div{
-    height: calc(100vh -30px);
+    height: calc(100vh - 30px);
 }
 
 body > input{
