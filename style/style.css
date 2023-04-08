@@ -32,3 +32,9 @@ body > input{
     border: none !important;
 
 }
+
+body > input:active,body > input:focus{
+    border: none !important;
+    caret-shape:block;
+    caret-color: rgb(0, 255, 0);
+}
