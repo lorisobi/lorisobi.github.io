@@ -10,3 +10,11 @@ body{
     justify-content: column;
     align-items: stretch;
 }
+
+body > div{
+    height: calc(100vh -30px);
+}
+
+body > input{
+    height: 30px;
+}
