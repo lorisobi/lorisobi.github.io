@@ -10,12 +10,15 @@ body{
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
+    background: black;
 }
 
 body > div{
     height: calc(100vh - 30px);
+    color: aquamarine;
 }
 
 body > input{
     height: 30px;
+    color: aquamarine;
 }
