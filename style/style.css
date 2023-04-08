@@ -21,9 +21,13 @@ body{
 body > div{
     height: calc(100vh - 30px);
     color: aquamarine;
+    background: black;
+
 }
 
 body > input{
     height: 30px;
     color: aquamarine;
+    background: black;
+
 }
