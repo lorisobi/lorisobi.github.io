@@ -1,3 +1,5 @@
+import * from  './js/programs/about.js';
+
 document.getElementById("consoleInput").focus();
 
 const programs = ["about", "website"];
@@ -17,7 +19,8 @@ function search(ele, content) {
 
 function runProgram(command){
     if (programs.includes(command)){
-        return "Moin";
+        return window[command];
+        
     }
     else{
         return "Sorry, command '" + command + "' was not found."
