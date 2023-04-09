@@ -1,4 +1,3 @@
-import * from  './js/programs/about.js';
 
 document.getElementById("consoleInput").focus();
 
