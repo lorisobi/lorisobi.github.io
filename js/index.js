@@ -1,6 +1,6 @@
 document.getElementById("consoleInput").focus();
 
-var programs = ["about", "website"]
+const programs = ["about", "website"];
 
 
 
@@ -9,14 +9,14 @@ function search(ele, content) {
         var paragraph = document.getElementById("consoleLog");
         paragraph.innerHTML += runProgram(content) + "<br />";
         window.location.href = "#bottom";  
-        document.getElementById("consoleInput").innerHTML = "";
+        document.getElementById("consoleInput").value = "";
         document.getElementById("consoleInput").focus();
 
     }
 }
 
 function runProgram(command){
-    if (command in programs){
+    if (programs.includes(command)){
         return "Moin";
     }
     else{
