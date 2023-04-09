@@ -18,7 +18,7 @@ function search(ele, content) {
 
 function runProgram(command){
     if (programs.includes(command)){
-        return window[command];
+        return window[command][0];
         
     }
     else{
