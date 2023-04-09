@@ -1,5 +1,9 @@
 document.getElementById("consoleInput").focus();
 
+var programs = ["about", "website"]
+
+
+
 function search(ele, content) {
     if(event.key === 'Enter') {
         var paragraph = document.getElementById("consoleLog");
@@ -12,11 +16,11 @@ function search(ele, content) {
 }
 
 function runProgram(command){
-    if (command == "0"){
+    if (command in programs){
         return "Moin";
     }
     else{
-        return command;
+        return "Sorry, command '" + command + "' was not found."
     }
 }
 
